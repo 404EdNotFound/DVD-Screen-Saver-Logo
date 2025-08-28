@@ -9,7 +9,7 @@ window = pygame.display.set_mode((X, Y))
 caption = pygame.display.set_caption("DVD Screensaver Logo (Image)")
 clock = pygame.time.Clock()
 
-DVD_Logo = pygame.image.load("C:\\Users\\Edwin\\Documents\\Python\\Pygame Module\\DVD Logo.PNG")
+DVD_Logo = pygame.image.load("DVD Logo.PNG")
 DVD_IMAGE_SIZE = (100, 50)
 DVD_Logo = pygame.transform.scale(DVD_Logo, DVD_IMAGE_SIZE)
 
@@ -78,5 +78,6 @@ while run:
     
     draw()
     pygame.display.update()
+
 
 pygame.quit()
